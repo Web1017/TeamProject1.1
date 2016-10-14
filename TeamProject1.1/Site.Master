@@ -16,6 +16,8 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
+
+    <meta name="description" content="The description of my page" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -37,11 +39,12 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li id="Home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i>  Home</a></li>
+                        <li id="Home" runat="server"><a href="Default.aspx"><i class="fa fa-globe fa-lg"></i>  Home</a></li>
+                        <li id="CounterStrike" runat="server"><a href="CounterStrike.aspx"><i class="fa fa-gamepad fa-lg"></i>  Counter Strike</a></li>
                         <li id="GameTracker" runat="server"><a href="GameTracker.aspx"><i class="fa fa-th fa-lg"></i>  Game Tracker</a></li>
                         <li id="Products" runat="server"><a href="Products.aspx"><i class="fa fa-gear fa-lg"></i>  Products</a></li>
                         <li id="About" runat="server"><a href="About.aspx"><i class="fa fa-info fa-lg"></i>  About</a></li>
-                        <li id="Contact" runat="server"><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i>  Contact</a></li>
+                        <li id="Contact" runat="server"><a href="Contact.aspx"><i class="fa fa-gitlab fa-lg"></i>  Contact</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->

@@ -24,6 +24,11 @@ namespace TeamProject1._1
                 case "Home":
                     Home.Attributes.Add("class", "active");
                     break;
+
+                case "CounterStrike":
+                    CounterStrike.Attributes.Add("class", "active");
+                    break;
+
                 case "Products":
                     Products.Attributes.Add("class", "active");
                     break;

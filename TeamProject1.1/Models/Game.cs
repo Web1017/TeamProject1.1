@@ -6,27 +6,26 @@ namespace TeamProject1._1.Models
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    [Table("Counter Strike")]
-    public partial class Counter_Strike
+    [Table("Game")]
+    public partial class Game
     {
         [Key]
-        [Column("Counter Strike")]
+        [Column("GAME")]
         [StringLength(10)]
-        public string Counter_Strike1 { get; set; }
+        public string GAME { get; set; }
 
-        [Column("Week 20 ")]
         [Required]
         [StringLength(10)]
-        public string Week_20_ { get; set; }
+        public string WEEK_NUMBER { get; set; }
 
-        [Column("Team 1")]
+        [Column("TEAM_1_ID")]
         [Required]
         [StringLength(10)]
-        public string Team_1 { get; set; }
+        public string TEAM_1_ID { get; set; }
 
-        [Column("Team 2")]
+        [Column("TEAM_2_ID")]
         [Required]
         [StringLength(10)]
-        public string Team_2 { get; set; }
+        public string TEAM_2_ID { get; set; }
     }
 }
